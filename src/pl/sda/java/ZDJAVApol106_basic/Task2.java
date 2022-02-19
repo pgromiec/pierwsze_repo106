@@ -12,7 +12,7 @@ public class Task2 {
         float area = calculateAreaOfACircle(diameter);
         System.out.println("Area Of A Circle: " + area);
     }
-    
+
 
     private static float getDiameterFromUser() {
         Scanner scanner = new Scanner(System.in);
