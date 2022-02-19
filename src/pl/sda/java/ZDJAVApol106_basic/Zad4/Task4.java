@@ -47,7 +47,7 @@ public class Task4 {
     }
 
     private static void displayBmiResult(float bmi) {
-        if (bmi < 18.5 || bmi > 24.9) {
+        if (bmi < BMI_MIN_RANGE || bmi > BMI_MAX_RANGE) {
             System.out.println("BMI is incorrect: " + bmi);
         } else {
             System.out.println("BMI is correct: " + bmi);
