@@ -17,5 +17,17 @@ public class Task7 {
             decision = scanner.nextLine();
         } while (!("Stop".equalsIgnoreCase(decision)));
     }
-    
+
+    private static void calculationMethod(float firstDigit, float secondDigit, String operator) {
+        switch (operator) {
+            case "+" :
+                //logika
+                break;
+            case "-":
+                break;
+            default:
+                //
+        }
+    }
+
 }
