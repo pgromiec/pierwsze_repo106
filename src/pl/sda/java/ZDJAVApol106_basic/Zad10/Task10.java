@@ -5,15 +5,19 @@ public class Task10 {
 
     public static void main(String[] args) {
 
-        System.out.println(sumOfNumbers(12345));
+        System.out.println(sumOfNumbers(40));
 
     }
 
     private static int sumOfNumbers(int number) {
         int sum = 0;
-        while (number != 0) {
-            sum += number % 10;
-            number/=10;
+        if(number > 9) {
+            while (number != 0) {
+                sum += number % 10;
+                number /= 10;
+            }
+        }else {
+            sum = number;
         }
         return sum;
     }
